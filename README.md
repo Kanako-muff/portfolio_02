@@ -4,7 +4,7 @@ Kanako-muffが製作した2つめのポートフォリオ（WEBサイト）で�
 ポートフォリオサイト内で使用している画像（ロゴ・バナー・トップ画像）も、上記サイトのものを参考に自作しました。<br>
 
 This is 2nd portfolio website made by Kanako-muff.<br>
-This website is based on a existent website of a law office.（ https://hirao-law.com/ ）<br>
+This website is based on a  website of a law office.（ https://hirao-law.com/ ）<br>
 I also made the images like logo, banners and top-image referencing to the site above.  <br>
 
 # Requirements
