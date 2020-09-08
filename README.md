@@ -15,8 +15,8 @@ I also made the images like logo, banners and top-image referencing to the site 
 ・Atom
 
 その他 -Other<br>
-・GitHub
-・Adobe Photoshop
+・GitHub<br>
+・Adobe Photoshop<br>
 ・Adobe Illustrator
 
 # Author
