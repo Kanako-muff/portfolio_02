@@ -1,0 +1,333 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mainimage {
+  clear: both;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*箇条書きの「・」を消す*/
+li {
+  list-style: none;
+}
+
+/*リンクの下線を消す*/
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+p {
+  color: #333;
+}
+
+* {
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* ヘッダ－
+------------------------------- */
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width:960px;
+	clear:both;
+}
+
+header h1 span {
+  color: #fff;
+  font-size: 12px;
+}
+
+header h1 {
+  background-color: #d25a24;
+  text-align: center;
+  margin-bottom: 30;
+}
+
+.header-signs {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.header-sign {
+  float: left;
+  width: 50%;
+}
+
+header .logo {
+  margin-left: -100px;
+  padding-top: 30px;
+}
+
+header .logo:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+header .tel {
+  margin-right: 0px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* メニュー
+------------------------------- */
+
+#menu-wrapper {
+  clear: both;
+  text-align: center;
+}
+
+.menu-item {
+  float: left;
+  width: 20%;
+  border: 1px solid #CCC;
+  display: block;
+}
+
+.menu-item:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+/* トップ画
+------------------------------- */
+
+#top-wrapper {
+  clear: both;
+  text-align: center;
+}
+
+#top-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 中見出し
+------------------------------- */
+.index {
+  color: #666;
+  font-size: 30px;
+  font-family: 'Noto Serif JP', serif;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  padding: .3em;
+}
+
+.index::before,
+.index::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+}
+
+.index:before {
+  border-bottom: 3px solid #d25a24;
+  width: 100%;
+}
+
+.index:after {
+  border-bottom: 3px solid #ccc;
+  width: 100%;
+}
+
+/* お知らせ
+------------------------------- */
+#information-wrapper {
+  padding-bottom: 40px;
+}
+
+#information-wrapper .date{
+  padding-right: 40px
+}
+
+/* よくあるご相談
+------------------------------- */
+.fa {
+  margin-right: 15px;
+}
+
+#consultation-wrapper {
+  background-color: #eee8e0;
+  padding: 60px 0 200px 0;
+}
+
+#consultation-wrapper .index img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*見出しの下線を消す*/
+#consultation-wrapper .index:before,
+#consultation-wrapper .index:after {
+  border: none;
+}
+
+/*よくある相談（オレンジ）*/
+#consultation-wrapper li:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+#consultation-wrapper .lists-mainmenu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#consultation-wrapper .lists-mainmenu li {
+  flex: auto;
+  width: 45%;
+  color: #fff;
+  background-color: #d25a24;
+  border-radius: 20px;
+  padding: 30px 30px;
+  margin: 10px 10px;
+}
+
+#consultation-wrapper li a {
+	display:block;
+}
+
+.mainmenu .kind {
+  color: #fff;
+  border-bottom: 1px solid #FFF;
+  height: 50px;
+  font-size: 24px;
+}
+
+.mainmenu .txt {
+  color: #fff;
+  font-size: 15px;
+  padding-top: 10px;
+  border-bottom: none;
+}
+
+.menu a {
+  font-size: 18px;
+}
+
+/*よくある相談（白）*/
+#consultation-wrapper .container .menu{
+	width:31%;
+	padding: 20px;
+	background:#FFF;
+	border-radius:20px;
+	float:left;
+  margin-top: 30px;
+	margin-bottom:15px;
+  margin-left: 15px;
+}
+
+#consultation-wrapper .menu p {
+  font-size: 18px;
+}
+
+
+/* ブログ
+------------------------------- */
+#blog-wrapper {
+  padding: 60px 0;
+  height: 400px;
+}
+
+#blog-wrapper .box {
+  width: 31%;
+  float: left;
+  margin-left: 18px;
+}
+
+#blog-wrapper .box .thumb {
+  margin-right: 40px;
+  width: 280px;
+}
+
+#blog-wrapper .article :hover{
+	opacity:0.8;
+	transition:0.5s;
+}
+
+/* ページトップへ
+------------------------------- */
+#page_top img {
+  clear: both;
+	position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+/* フッター
+------------------------------- */
+footer {
+  padding-top:5%;
+  margin-top: 0%;
+  clear: both;
+}
+
+/*フッターメニュー*/
+footer .main {
+  font-size: 18px;
+}
+
+footer .main:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+footer .main span {
+  color: #d25a24;
+}
+
+footer .ft-info {
+	background:#eee8e0;
+	padding-top:3%;
+	padding-bottom:3%;
+}
+
+/*フッターimg*/
+footer .ft-banners {
+    background:#eee8e0;
+}
+
+footer .footer-tel {
+  margin-right: 2.5px;
+}
+
+footer .footer-mail:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+footer .logo {
+  padding-top: 20px;
+}
+
+footer .adress {
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+footer .footer-logo-container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 430px;
+	clear: both;
+}
+
+footer .copyright {
+  background-color: #d25a24;
+  font-size: 12px;
+  color: #FFF;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
