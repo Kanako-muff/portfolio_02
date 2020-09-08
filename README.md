@@ -5,16 +5,16 @@ Kanako-muffが製作した2つめのポートフォリオ（WEBサイト）で�
 
 This is 2nd portfolio website made by Kanako-muff.
 This website is based on a existent website of a law office.（ https://hirao-law.com/ ）
-I also made images like logo, banners and top-image referencing to the site above.  
+I also made the images like logo, banners and top-image referencing to the site above.  
 
 # Requirements
 使用言語 -Programming language
 ・HTML/CSS
 
-# テキストエディタ -Source-code editor
+テキストエディタ -Source-code editor
 ・Atom
 
-# その他 -Other
+その他 -Other
 ・GitHub
 ・Adobe Photoshop
 ・Adobe Illustrator
